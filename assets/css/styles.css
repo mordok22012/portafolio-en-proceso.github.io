@@ -124,7 +124,7 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
-/* About me*/
+/* Sobre Mi*/
 .mas-sobre {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
@@ -139,7 +139,7 @@ nav ul li {
   padding: 0.4rem;
 }
 
-/* Skills*/
+/* Habilidades*/
 .habilidades {
   max-width: 68.75rem;
   margin: auto;
@@ -166,4 +166,51 @@ nav ul li {
   padding: 20px;
   margin: 10px
 
+}
+
+/* Proyectos */
+.proyectos {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.foto-de-proyecto {
+  width: 65%;
+  height: 60%;
+}
+
+.contenedor-de-proyectos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-de-proyectos {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contenedor-de-proyecto {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+
+}
+
+.contenedor-de-proyecto p {
+  padding: 0.4rem;
+
+}
+
+.titulo-de-proyecto {
+  margin-bottom: var(--bottom-margin);
+}
+
+.tarjeta-de-proyecto {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
