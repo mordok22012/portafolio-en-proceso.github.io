@@ -125,16 +125,16 @@ nav ul li {
 }
 
 /* Sobre Mi*/
-.mas-sobre {
+.mas-sobre-mi {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
 }
-.mas-sobre h2 {
+.mas-sobre-mi h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
 
-.mas-sobre p {
+.mas-sobre-mi p {
   line-height: var(--line-height);
   padding: 0.4rem;
 }
@@ -316,6 +316,7 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 720px) {
+  /* nav */
   nav {
     padding: 1.5rem 1rem ;
   }
@@ -343,4 +344,35 @@ footer {
   nav ul.show {
     transform: translateX(0);
   }
+
+  /* hero */
+  .hero {
+    margin-top: -4px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero img {
+    height: 37.5rem;
+    width: 30rem;
+  }
+
+  .bio {
+    margin-top: -7rem;
+    width: 20.5rem;   
+  }
+
+  .mas-sobre-mi {
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
+  }
+
+  .mas-sobre-mi h2 {
+    text-align: center;
+  }
+
+  .mas-sobre-mi p {
+    text-align: justify;
+  }
+
 }
