@@ -124,7 +124,7 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
-/* Sobre Mi*/
+/* Sobre Mi
 .mas-sobre-mi {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
@@ -138,6 +138,8 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
 }
+
+*/
 
 /* Habilidades*/
 .habilidades {
@@ -362,6 +364,7 @@ footer {
     width: 20.5rem;   
   }
 
+  /*
   .mas-sobre-mi {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
@@ -374,6 +377,8 @@ footer {
   .mas-sobre-mi p {
     text-align: justify;
   }
+  
+  */
 
   /* Hablidades */
   .icon {
