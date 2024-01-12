@@ -26,7 +26,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid red; */
+  
 }
 
 ul {
@@ -154,36 +154,6 @@ nav ul li {
   margin: 10px
 
 }
-
-/* Proyectos 
-
-
-.titulo-de-proyectos {
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#prevBtn, #nextBtn {
-  cursor: pointer;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-
-*/
 
 .proyectos-carousel {
   background-color: var(--bg-color);
